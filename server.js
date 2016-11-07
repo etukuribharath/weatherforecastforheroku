@@ -6,7 +6,7 @@ var PORT = process.env.PORT || 8080
 
 
 
-app.use(express.static(__dirname + '/dev'));
+app.use(express.static(__dirname + '/dev/index.html'));
 
 
 
