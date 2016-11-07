@@ -7,7 +7,7 @@ var io = require('socket.io')(http);
 
 
 
-app.use(express.static(__dirname + './dev'));
+app.use(express.static(__dirname + '/dev'));
 
 
 
