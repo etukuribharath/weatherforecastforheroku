@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Component} from 'react';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import WeatherCard from './weathercard.jsx'
+import WeatherCard from './weathercard.jsx';
 import TextField from 'material-ui/TextField';
 var Flex=require("../../node_modules/flexboxgrid/css/flexboxgrid.css");
 
