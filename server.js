@@ -4,7 +4,7 @@ var express = require('express');
 var path = require("path");
 var PORT = process.env.PORT || 8080;
 
-app.use(express.static(__dirname + '/dev/index.html'));
+app.use(express.static('dev'));
 
 http.listen(PORT, function(){
  console.log('listening on *:8080');
