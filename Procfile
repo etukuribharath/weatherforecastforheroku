@@ -1,2 +1,3 @@
-web: npm install
-web: npm run serve
+web:npm install
+web:webpack
+web:npm run start
