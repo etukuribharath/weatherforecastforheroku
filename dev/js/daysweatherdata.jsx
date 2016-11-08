@@ -25,7 +25,7 @@ class DaysWeatherData extends Component{
 componentDidMount() {
 	
 		$.ajax({
-			url: "https://api.openweathermap.org/data/2.5/forecast?q=Bangalore,in&mode=json&appid=5c0b52705f677d3217ce78a3d1865e4f",
+			url: "http://api.openweathermap.org/data/2.5/forecast?q=Bangalore,in&mode=json&appid=5c0b52705f677d3217ce78a3d1865e4f",
 			dataType: 'json',
 			type: 'GET',
 		}).done(function(d){
