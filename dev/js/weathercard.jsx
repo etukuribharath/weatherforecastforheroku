@@ -22,7 +22,7 @@ componentDidMount() {
 	render(){
 		return(		
 					<div>
-						{this.state.data1.length>0?
+						{this.state.data.length>0?
 							<div><h3>{this.state.data[0].dt_txt.split(" ")[0]}</h3>
 								{this.state.data1.map((a,key)=>{
                                    
